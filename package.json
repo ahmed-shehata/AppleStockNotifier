@@ -1,0 +1,17 @@
+{
+    "name": "applestock",
+    "version": "1.0.0",
+    "description": "AppleStock checker using iStocknow",
+    "main": "index.js",
+    "dependencies": {
+        "node-notifier": "^4.6.1",
+        "nodemailer": "^2.6.4",
+        "request": "^2.75.0"
+    },
+    "devDependencies": {},
+    "scripts": {
+        "test": "node index.js <email_from> <email_from_pass> <email_to> <store_code> <iPhone_model> <color> <capacity>"
+    },
+    "author": "Ahmed Shehata",
+    "license": "ISC"
+}
