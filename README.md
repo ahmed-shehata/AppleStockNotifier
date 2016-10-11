@@ -15,3 +15,5 @@ Get all Apple Store code [here](http://www.istocknow.com/live/live.php?type=7Plu
 ```Javascript
 node index.js timcook@apple.com verysecurepassword foo@bar.com 14708 7Plus Black 128GB
 ```
+### Note
+<email_from> is configured for GMail
