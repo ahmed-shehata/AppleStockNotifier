@@ -61,7 +61,7 @@ setInterval(function() {
         json: true
     }, function(error, response, body) {
 
-        if (!error && response.statusCode === 200) {
+        if (!error && response.statusCode === 200 && body.dataz !== undefined) {
             var live = body.dataz[appleStoreCode].live;
             var dt = new Date();
             var utcDate = dt.toUTCString();
