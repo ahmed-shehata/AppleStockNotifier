@@ -1,7 +1,7 @@
 # AppleStockNotifier
 AppleStockNotifier is a small Node.js based server that notifies via email when the preferred iPhone is available in stock in a specific store location.
 
-Get all Apple Store code [here](http://www.istocknow.com/live/live.php?type=7Plus&ajax=1)
+Get all Apple Store code [here](http://www.istocknow.com/live)
 
 # Usage
 
